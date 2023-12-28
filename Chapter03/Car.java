@@ -1,3 +1,4 @@
+package Chapter03;
 public class Car {
     int speed;
     int distance;

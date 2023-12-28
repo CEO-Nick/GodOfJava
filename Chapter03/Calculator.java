@@ -1,3 +1,4 @@
+package Chapter03;
 public class Calculator {
     
     public static void main(String[] args) {
@@ -5,6 +6,14 @@ public class Calculator {
         System.out.println("Calculator method");
 
         Calculator calc = new Calculator();
+        int a = 10;
+        int b = 5;
+        System.out.println("add = " + calc.add(a,b));
+        System.out.println("add = " + calc.substract(a,b));
+        System.out.println("add = " + calc.mulitply(a,b));
+        System.out.println("add = " + calc.divide(a,b));
+
+
 
     }
 

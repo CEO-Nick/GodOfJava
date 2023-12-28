@@ -1,3 +1,4 @@
+package Chapter02;
 
 public class SmartPhone {
     String deviceName;
