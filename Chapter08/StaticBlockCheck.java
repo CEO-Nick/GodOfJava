@@ -3,7 +3,7 @@ package Chapter08;
 public class StaticBlockCheck {
     public static void main(String[] args) {
         StaticBlockCheck check = new StaticBlockCheck();
-        //check.makeStaticBlockObject();
+        check.makeStaticBlockObject();
         check.makeStaticBlockObjectWithData();
     }
 

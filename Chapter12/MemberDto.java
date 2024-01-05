@@ -1,12 +1,6 @@
-package Chapter08;
+package Chapter12;
 
 public class MemberDto {
-    public static void main(String[] args) {
-        MemberDto memberDto = new MemberDto("조익현", "010-6396-5887", "andantej99@ajou.ac.kr");
-        System.out.println(memberDto);
-    }
-
-
     public String name;
     public String phone;
     public String email;
@@ -31,5 +25,7 @@ public class MemberDto {
     public String toString() {
         return "Name = " + name + " Phone = " + phone + " Email = " + email;
     }
+
+    
 
 }
