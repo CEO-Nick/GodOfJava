@@ -12,4 +12,15 @@ public class AnonymousSample {
         button.setListener(listener);
         button.onClickProcess();
     }
+
+    public void setButtonListenerAnonymous() {
+        MagicButton button = new MagicButton();
+        button.setListener(new EventListener() {
+            @Override
+            public void onClick() {
+                System.out.println("Magic Button Clicked!!!");
+            }
+        });
+        button.onClickProcess();
+    }
 }
